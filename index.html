@@ -2,29 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>hw-01</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
 
-        <ul>
-          <li><a href="Studio">Studio</a></li>
-          <li><a href="Portfolio">Portfolio</a></li>
-          <li><a href="Contacts">Contacts</a></li>
+    <header>
+      <nav class="logo-nav">
+        <a class="logo-web" href="./index.html">Web<span class="logo-studio">Studio</span></a>
+
+        <ul class="menu-links">
+          <li><a href="Studio" class="link">Studio</a></li>
+          <li><a href="Portfolio"class="link" >Portfolio</a></li>
+          <li><a href="Contacts" class="link">Contacts</a></li>
         </ul>
       </nav>
 
-      <address>
+      <address class="header-address">
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
           </li>
 
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -32,21 +37,21 @@
 
     <main>
       <!-- Секція 1 -->
-      <section>
-        <h1>
-          Effective Solutions
+      <section class="first-level">
+        <h1 class="header-one">
+          Effective Solutions <br />
           for Your Business
         </h1>
-        <button type="button">Order Service</button>
+        <button type="button" class="button-one-link"><span class="button-text">Order Service</span></button>
       </section>
 
       <!-- Секція 2 -->
       <section>
-        <h2>Futures</h2>
-        <ul>
+        <!-- <h2>Futures</h2>  -->
+        <ul class="futures">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="Strategy">Strategy</h3>
+            <p class="text-one">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
