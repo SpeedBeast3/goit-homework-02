@@ -5,11 +5,11 @@ body{
     line-height: 1.5;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -105,12 +105,11 @@ letter-spacing: 0.02em;
 }
 
 .button-one-link{
-    background:#404BBF;
+    background:#4D5AE5;
     cursor: pointer;
-}
-
-.button-one {
-    background-color:#4D5AE5;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }
 
 .button-one-link :hover,
@@ -126,47 +125,48 @@ letter-spacing: 0.02em;
     letter-spacing: 0.04em;
 }
 
-.futures{
+.strategy{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .text-one{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .text-two{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .text-three{
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .text-four{
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.002em;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 h3{
@@ -186,14 +186,24 @@ h3{
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1; 
+    line-height: 1.11; 
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .section-two{
     background:#F4F4FD;
     flex-shrink: 0;
+}
+
+.list-img{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 list-team{
