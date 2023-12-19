@@ -52,6 +52,7 @@ a{
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.2em;
 }
 
 .header-address .link{
@@ -70,18 +71,16 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.2em;
 }
 
 .first-level{
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
     flex-shrink: 0;
 }
 
 .header-one{
     color:#FFF;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-style: normal;
@@ -91,9 +90,7 @@ a{
 }
 
 .button-one-link{
-    border-radius: 4px;
     background:#404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
@@ -115,8 +112,6 @@ a{
 }
 
 .futures{
-    display: flex;
-    width: 264px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -143,20 +138,20 @@ a{
 
 .text-three{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 4%;
 }
 
 .text-four{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 4%;
 }
 
 h3{
@@ -171,7 +166,6 @@ h3{
 
 
 .header-two{
-    text-align: center;
     font-family: 'Roboto', sans-serif; 
     font-size: 36px;
     font-style: normal;
@@ -183,15 +177,11 @@ h3{
 
 .section-two{
     background:#F4F4FD;
-    width: 1440px;
-    height: 732px;
     flex-shrink: 0;
 }
 
 list-team{
-border-radius: 0px 0px 4px 4px;
 background: #FFF;
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .footer-logo-web{
@@ -217,8 +207,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 footer{
-width: 1440px;
-height: 312px;
 flex-shrink: 0;
 background:#2E2F42;
 }
