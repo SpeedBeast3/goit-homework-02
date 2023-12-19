@@ -19,6 +19,8 @@ a{
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -29,7 +31,18 @@ a{
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.link{
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .menu-links .link{
@@ -52,7 +65,7 @@ a{
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 
 .header-address .link{
@@ -71,12 +84,14 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 
 .first-level{
     background-color: #2E2F42;
     flex-shrink: 0;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .header-one{
@@ -86,7 +101,7 @@ a{
     font-style: normal;
     font-weight: 700;
     line-height: 1.07; 
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 
 .button-one-link{
@@ -124,7 +139,7 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 
 .text-two{
@@ -133,7 +148,7 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
 }
 
 .text-three{
@@ -142,7 +157,7 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.002em;
 }
 
 .text-four{
@@ -151,7 +166,7 @@ a{
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.002em;
 }
 
 h3{
@@ -160,7 +175,7 @@ h3{
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.002em;
 }
 
 
@@ -171,7 +186,7 @@ h3{
     font-style: normal;
     font-weight: 700;
     line-height: 1.1; 
-    letter-spacing: 2%;
+    letter-spacing: 0.002em;
     text-transform: capitalize;
 }
 
@@ -202,7 +217,7 @@ background: #FFF;
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -218,5 +233,5 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.2em;
+letter-spacing: 0.02em;
 }
