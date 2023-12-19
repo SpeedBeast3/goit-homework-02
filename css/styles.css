@@ -51,7 +51,7 @@ letter-spacing: 0.02em;
 
 .menu-links .link:hover,
 .menu-links .link:focus{
-    color: #404bbf;
+    color: #FFFFFF;
 }
 
 .menu-links .link:active{
@@ -74,7 +74,7 @@ letter-spacing: 0.02em;
 
 .header-address .link:hover,
 .header-address .link:focus{
-    color: #404bbf;
+    color: #FFFFFF;
 }
 
 .header-address{
@@ -104,19 +104,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
-.button-one-link{
-    background:#4D5AE5;
-    cursor: pointer;
-    line-height: 1.5;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-}
-
-.button-one-link :hover,
-.button-one-link :focus{
-    color: #404BBF;
-}
-
 .button-text{
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
@@ -124,6 +111,17 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+
+.button-one-link{
+    background:#4D5AE5;
+}
+
+.button-one-link :hover,
+.button-one-link :focus{
+    color: #404BBF;
+}
+
+
 
 .strategy{
     font-weight: 500;
@@ -133,7 +131,7 @@ letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.text-one{
+.list-str{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -142,7 +140,7 @@ letter-spacing: 0.02em;
     color: #434455;
 }
 
-.text-two{
+.list-punct{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -151,7 +149,7 @@ letter-spacing: 0.02em;
     color: #434455;
 }
 
-.text-three{
+.list-dil{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -160,7 +158,7 @@ letter-spacing: 0.02em;
     color: #434455;
 }
 
-.text-four{
+.list-tech{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -168,17 +166,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-h3{
-    font-family: 'Roboto', sans-serif; 
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.002em;
-}
-
-
 
 .header-two{
     font-family: 'Roboto', sans-serif; 
@@ -193,13 +180,14 @@ h3{
 }
 
 .section-two{
+    color: #2e2f42;
     background:#F4F4FD;
     flex-shrink: 0;
 }
 
-.list-img{
+.list-item{
     font-family: 'Roboto', sans-serif; 
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
@@ -207,7 +195,7 @@ h3{
 }
 
 list-team{
-background: #FFF;
+background: #FFFFFF;
 }
 
 .footer-logo-web{
