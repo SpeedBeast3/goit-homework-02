@@ -68,7 +68,7 @@ a {
 }
 
 .header-address {
-  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -103,12 +103,12 @@ a {
   font-weight: 500;
 }
 
-.button-one-link :hover,
-.button-one-link :focus {
+.button-one-link:hover,
+.button-one-link:focus {
   background-color: #404bbf;
 }
 
-.section-style-h2 {
+.title-style-two {
     color:#2E2F42;
     text-align: center;
     font-size: 36px;
@@ -118,7 +118,7 @@ a {
     text-transform: capitalize;
 }
 
-.section-style-h3{
+.title-style-three{
     color:#2E2F42;
     text-align: center;
     font-size: 20px;
@@ -161,6 +161,8 @@ a {
   background: #f4f4fd;
   flex-shrink: 0;
 }
+
+.list-team{}
 
 .list-img {
   font-family: "Roboto", sans-serif;
@@ -206,15 +208,4 @@ footer {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.logo-2 {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
