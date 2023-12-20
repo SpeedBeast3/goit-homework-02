@@ -180,22 +180,17 @@ letter-spacing: 0.02em;
 }
 
 .section-two{
-    color: #2e2f42;
     background:#F4F4FD;
     flex-shrink: 0;
 }
 
-.list-item{
+.list-img{
     font-family: 'Roboto', sans-serif; 
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-list-team{
-background: #FFFFFF;
 }
 
 .footer-logo-web{
