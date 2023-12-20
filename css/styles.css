@@ -113,7 +113,7 @@ a {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -145,21 +145,13 @@ a {
   color: #434455;
 }
 
-.header-two {
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
 .section-two {
   background: #f4f4fd;
   flex-shrink: 0;
+}
+
+.team-list-item{
+    background-color: #ffffff;
 }
 
 .footer-logo-web {
